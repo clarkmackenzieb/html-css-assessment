@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.backgroundpic {
+    background-image: url('./img/main-bg.jpeg');
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* Full height */
+    height: 100vh; 
+
+    background-position: center;
+       
+            
+       
+} 
+
+.invisible {
+    display: none;   
+}
+
+.whitetextwithfont {
+    color: white;
+    font-family: tahoma;
+    text-align: center;
+}
+
+.flexy {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headertext {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5vh;
+}
+
+.centertext {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigtext {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin: 30vh 0vw 0vh;
+}
+
+.persport {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    white-space:nowrap;
+}
+
+.buttonicon {
+    display: flex;
+    justify-content: center;
+    margin: 30vh 0vw 0vh;
+}
+
+#caticon {
+    height: 10%;
+    width: 5%;
+}
+
+@media (max-width: 768px) {
+    .headertext {
+        display: none;
+    }
+
+    .mobileheader {
+        display: flex;
+        height: 10vh;
+        width: 100vw;
+    }
+
+    .hamburgermenu {
+        display: flex;
+        color:white;
+        font-size: 50px;
+        margin: 1vh 40vw 0vh 10vw;
+    }
+
+    .cat {
+        display: flex;
+        flex-direction: row;
+        margin: 2vh;
+    }
+
+    #caticonmobile1 {
+        height: auto;
+        width: 5vh;
+        margin: 0vh 0vw 0vh 10vw;
+        justify-content: flex-end;
+    }
+
+    #caticonmobile2 {
+        height: auto;
+        width: 5vh;
+        margin: 0vh 5vw 0vh 0vw;
+        justify-content: flex-end;
+    }
+
+}
